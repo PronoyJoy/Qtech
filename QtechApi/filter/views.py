@@ -6,7 +6,7 @@ from .serializers import ProductSerializer
 class ProductListAPIView(generics.ListAPIView):
     serializer_class = ProductSerializer
 
-    def get_queryset(self):
+    def get_queryset(self):  # sourcery skip: use-named-expression
         queryset = Product.objects.all()
 
         # Apply filters based on query parameters

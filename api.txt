@@ -1,0 +1,3 @@
+#for products
+- http://127.0.0.1:8000/api/products/
+- http://localhost:8000/api/products/?brand=Nokia&seller=Nokia%20Store%20Bangladesh&warranty=2%20Years&min_price=500&max_price=20000&category=Smartphone
